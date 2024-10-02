@@ -8,7 +8,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  /* --second-color: hsl(50, 100%, 50%); */
+  --first-color: hsl(50, 100%, 50%);
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: "Poppins", sans-serif;
@@ -217,7 +218,12 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 360px;
+  width: 400px;
+  height: 406px;
+  /* margin-bottom: 10px;
+  margin-right: 150px; */
+  
+  
 }
 
 /*BUTTONS*/
@@ -297,10 +303,10 @@ img {
   width: 85%;
 }
 .skills__js {
-  width: 65%;
+  width: 85%;
 }
 .skills__ux {
-  width: 85%;
+  width: 50%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -351,7 +357,7 @@ img {
   padding: 2rem 0;
 }
 .footer__title {
-  font-size: 2rem;
+  font-size: 8rem;
   margin-bottom: var(--mb-4);
 }
 .footer__social {
